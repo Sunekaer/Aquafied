@@ -1,0 +1,13 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "aquafied"
+version = "${version}"
+displayName = "Aquafied"
+authors="Sunekaer"
+description = '''
+Aquafied
+'''
+

@@ -1,13 +1,5 @@
-# ~~Fabric~~ Forge Example Mod
+Aquafied
 
-*...using [Forgified Fabric Loom](https://github.com/architectury/forgified-fabric-loom)*
+This mod changes the carveBlock air and lava to water in overworld.
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the
-IDE that you are using.
-
-## License
-
-This template, much like the original fabric-example-mod, is available under the CC0 license. Feel free to learn from it
-and incorporate it in your own projects.
+Replaces air between 0 and 48 with water in the end

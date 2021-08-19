@@ -11,7 +11,7 @@ targetCompatibility = JavaVersion.VERSION_1_8
 
 def ENV = System.getenv()
 archivesBaseName = project.archives_base_name
-version = "${mod_version}+mc${minecraft_version}-build.${ENV.GITHUB_RUN_NUMBER ?: 9999}"
+version = "${mod_version}-build.${ENV.GITHUB_RUN_NUMBER ?: 9999}+mc${minecraft_version}"
 group = project.maven_group
 
 loom {

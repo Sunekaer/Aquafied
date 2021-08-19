@@ -4,8 +4,9 @@
   "package": "com.sunekaer.mods.aquafied.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "AquafiedEndMixin",
     "AquafiedCarverMixin",
+    "AquafiedEndMixin",
+    "AquafiedLevelMixin",
     "AquafiedUnderwaterCaveWorldCarverMixin"
   ],
   "client": [],

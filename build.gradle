@@ -46,8 +46,7 @@ dependencies {
 
     forge "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
 
-    modApi "mezz.jei:jei-1.16.4:${jei_version}:api"
-    modImplementation "mezz.jei:jei-1.16.4:${jei_version}"
+    modRuntime "mezz.jei:jei-1.16.4:${jei_version}"
 }
 
 processResources {
